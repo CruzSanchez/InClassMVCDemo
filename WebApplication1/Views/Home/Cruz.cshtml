@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Cruz's Page</title>
+</head>
+<body>
+<div>
+    <h1>Welcome to Cruz's Page!</h1>
+    <h3>Let's count to 5!</h3>
+    <ul>
+        @{
+            var nums = new int[]{ 1, 2, 3, 4, 5 };
+            
+            for (int i = 0; i < nums.Length; i++)
+            {
+                <li>@nums[i]</li>
+            }
+        }
+    </ul>
+</div>
+</body>
+</html>
